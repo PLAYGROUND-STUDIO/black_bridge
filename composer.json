@@ -1,0 +1,13 @@
+{
+    "name": "playground/blackbridge",
+    "description": "A PHP Library for me and everyone.",
+    "type": "Library",
+    "license": "CC-BY-NC-SA",
+    "authors": [
+        {
+            "name": "Napadon Kaengkanna",
+            "email": "napadon@playground.in.th"
+        }
+    ],
+    "require": {}
+}
