@@ -9,5 +9,12 @@
             "email": "napadon@playground.in.th"
         }
     ],
-    "require": {}
+    "config": {
+        "platform": {
+            "php": "5.4.0"
+        }
+    },
+    "require": {
+
+    }
 }
