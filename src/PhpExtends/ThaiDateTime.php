@@ -74,15 +74,15 @@ class ThaiDateTime extends \DateTime
      */
     public function format($format)
     {
-        $n = parent::format('N');
-        $day_full = $this->dataThaiDay[$n];
-        $day_abbr = $this->dataThaiDayAbbr[$n];
+        $N = parent::format('N');
+        $day_full = $this->dataThaiDay[$N];
+        $day_abbr = $this->dataThaiDayAbbr[$N];
         $format = str_replace('l-TH', $day_full, $format);
         $format = str_replace('D-TH', $day_abbr, $format);
 
-        $m = parent::format('m');
-        $month_full = $this->dataThaiMonth[$m];
-        $month_abbr = $this->dataThaiMonthAbbr[$m];
+        $n = parent::format('n');
+        $month_full = $this->dataThaiMonth[$n];
+        $month_abbr = $this->dataThaiMonthAbbr[$n];
         $format = str_replace('F-TH', $month_full, $format);
         $format = str_replace('M-TH', $month_abbr, $format);
 
