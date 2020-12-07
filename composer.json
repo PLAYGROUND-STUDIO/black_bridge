@@ -1,8 +1,8 @@
 {
     "name": "playground-studio/blackbridge",
     "description": "A PHP Library for me and everyone.",
-    "type": "Library",
-    "license": "CC-BY-NC-SA",
+    "type": "library",
+    "license": "CC-BY-NC-SA-4.0",
     "authors": [
         {
             "name": "Napadon Kaengkanna",
@@ -14,7 +14,9 @@
             "php": "5.4.0"
         }
     },
-    "require": {
-
+    "autoload": {
+        "psr-4": {
+            "PlaygroundStudio\\BlackBridge\\": "src/"
+        }
     }
 }
