@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e9f3424-e9fc-409b-a383-9e4c0fb894bf" name="Default" comment="Composer Initialization">
-      <change afterPath="$PROJECT_DIR$/src/PhpExtends/ThaiDateTimeFormat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/black_bridge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/black_bridge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="3e9f3424-e9fc-409b-a383-9e4c0fb894bf" name="Default" comment="Update Thai DateTime Library">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PhpExtends/ThaiDateTime.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhpExtends/ThaiDateTime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +18,12 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -166,7 +163,7 @@
       <updated>1498057334576</updated>
       <workItem from="1498057336822" duration="3917000" />
       <workItem from="1498140036943" duration="131000" />
-      <workItem from="1607307003648" duration="5883000" />
+      <workItem from="1607307003648" duration="6419000" />
     </task>
     <task id="LOCAL-00001" summary="Composer Initialization">
       <created>1498057401339</created>
@@ -175,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498057401339</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update Thai DateTime Library">
+      <created>1607313241912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607313241912</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -219,7 +223,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Composer Initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composer Initialization" />
+    <MESSAGE value="Update Thai DateTime Library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Thai DateTime Library" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Timestamp.php">
