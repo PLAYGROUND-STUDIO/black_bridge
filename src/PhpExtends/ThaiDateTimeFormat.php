@@ -1,6 +1,6 @@
 <?php
 
-namespace PlaygroundStudio\PhpExtends;
+namespace PlaygroundStudio\BlackBridge\PhpExtends;
 
 use MyCLabs\Enum\Enum;
 
