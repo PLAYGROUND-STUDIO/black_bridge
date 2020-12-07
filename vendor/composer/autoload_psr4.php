@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'PlaygroundStudio\\BlackBridge\\' => array($baseDir . '/src'),
+    'MyCLabs\\Enum\\' => array($vendorDir . '/myclabs/php-enum/src'),
 );

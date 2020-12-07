@@ -11,12 +11,20 @@ class ComposerStaticInit239d01a2f1556937901420640800e606
         array (
             'PlaygroundStudio\\BlackBridge\\' => 29,
         ),
+        'M' => 
+        array (
+            'MyCLabs\\Enum\\' => 13,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'PlaygroundStudio\\BlackBridge\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'MyCLabs\\Enum\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/myclabs/php-enum/src',
         ),
     );
 

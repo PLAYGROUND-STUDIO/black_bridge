@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e9f3424-e9fc-409b-a383-9e4c0fb894bf" name="Default" comment="Composer Initialization">
-      <change afterPath="$PROJECT_DIR$/src/PhpExtends/ThaiDateTime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhpExtends/ThaiDateTimeFormat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/black_bridge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/black_bridge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Date.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateFormat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Timestamp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PhpExtends/ThaiDateTime.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhpExtends/ThaiDateTime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_a.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -132,11 +133,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/PhpExtends" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/PhpExtends" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Extends" />
     </key>
@@ -162,7 +166,7 @@
       <updated>1498057334576</updated>
       <workItem from="1498057336822" duration="3917000" />
       <workItem from="1498140036943" duration="131000" />
-      <workItem from="1607307003648" duration="903000" />
+      <workItem from="1607307003648" duration="5883000" />
     </task>
     <task id="LOCAL-00001" summary="Composer Initialization">
       <created>1498057401339</created>
