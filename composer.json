@@ -6,20 +6,23 @@
     "authors": [
         {
             "name": "Napadon Kaengkanna",
-            "email": "napadon@playground.in.th"
+            "email": "napadon@playground.in.th",
+            "homepage": "http://napadon.playground.in.th"
         }
     ],
-    "config": {
-        "platform": {
-            "php": "7.4.0"
-        }
-    },
     "autoload": {
         "psr-4": {
             "PlaygroundStudio\\BlackBridge\\": "src/"
         }
     },
     "require": {
-        "myclabs/php-enum": "^1.7"
+        "php": ">=7.0",
+        "nahid/jsonq": "v6.0.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
+
+

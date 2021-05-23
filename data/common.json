@@ -1,0 +1,25 @@
+{
+  "days": [
+    {"id": 1, "name": "จันทร์", "name_abbr": "จ."},
+    {"id": 2, "name": "อังคาร", "name_abbr": "อ."},
+    {"id": 3, "name": "พุธ", "name_abbr": "พ."},
+    {"id": 4, "name": "พฤหัสบดี", "name_abbr": "พฤ."},
+    {"id": 5, "name": "ศุกร์", "name_abbr": "ศ."},
+    {"id": 6, "name": "เสาร์", "name_abbr": "ส."},
+    {"id": 7, "name": "อาทิตย์", "name_abbr": "อา."}
+  ],
+  "months":[
+    {"id": 1, "name": "มกราคม", "name_abbr": "ม.ค."},
+    {"id": 2, "name": "กุมภาพันธ์", "name_abbr": "ก.พ."},
+    {"id": 3, "name": "มีนาคม", "name_abbr": "มี.ค."},
+    {"id": 4, "name": "เมษายน", "name_abbr": "เม.ย."},
+    {"id": 5, "name": "พฤษภาคม", "name_abbr": "พ.ค."},
+    {"id": 6, "name": "มิถุนายน", "name_abbr": "มิ.ย."},
+    {"id": 7, "name": "กรกฎาคม", "name_abbr": "ก.ค."},
+    {"id": 8, "name": "สิงหาคม", "name_abbr": "ส.ค."},
+    {"id": 9, "name": "กันยายน", "name_abbr": "ก.ย."},
+    {"id": 10, "name": "ตุลาคม", "name_abbr": "ต.ค."},
+    {"id": 11, "name": "พฤศจิกายน", "name_abbr": "พ.ย."},
+    {"id": 12, "name": "ธันวาคม", "name_abbr": "ธ.ค."}
+  ]
+}
