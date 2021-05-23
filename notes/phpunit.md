@@ -1,4 +1,4 @@
 # PHPUNIT
 ```
-vendor/bin/phpunit tests
+vendor/bin/phpunit test-phpunit
 ```
