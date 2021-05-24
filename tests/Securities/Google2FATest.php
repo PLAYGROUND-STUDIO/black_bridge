@@ -1,8 +1,7 @@
 <?php
-/** @noinspection PhpIllegalPsrClassPathInspection */
-/** @noinspection PhpMultipleClassDeclarationsInspection */
-/** @noinspection SpellCheckingInspection */
+namespace Tests\Securities;
 
+use Exception;
 use PHPUnit\Framework\TestCase;
 use PlaygroundStudio\BlackBridge\Securities\Google2FA;
 use PragmaRX\Google2FA\Google2FA as PragmaRXGoogle2FA;

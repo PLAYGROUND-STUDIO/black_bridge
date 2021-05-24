@@ -1,5 +1,5 @@
 <?php
-/** @noinspection PhpIllegalPsrClassPathInspection */
+namespace Tests\Validators;
 
 use PlaygroundStudio\BlackBridge\Validators\StringValidator;
 use PHPUnit\Framework\TestCase;

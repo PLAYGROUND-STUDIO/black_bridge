@@ -1,7 +1,5 @@
 <?php
-/** @noinspection PhpRedundantOptionalArgumentInspection */
-/** @noinspection PhpIllegalPsrClassPathInspection */
-/** @noinspection PhpParamsInspection */
+namespace Tests\Loaders;
 
 use Nahid\QArray\Exceptions\ConditionNotAllowedException;
 use Nahid\QArray\Exceptions\InvalidNodeException;
@@ -12,19 +10,19 @@ class CellDataLoaderTest extends TestCase
 {
     public function testLoad()
     {
-        $data = CellDataLoader::load('common');
+        $data = CellDataLoader::load();
         $this->assertJson($data);
     }
 
     public function testLoadJson()
     {
-        $data = CellDataLoader::loadJson('common');
+        $data = CellDataLoader::loadJson();
         $this->assertJson($data);
     }
 
     public function testLoadArray()
     {
-        $data = CellDataLoader::loadArray('common');
+        $data = CellDataLoader::loadArray();
         $this->assertIsArray($data);
     }
 
@@ -34,7 +32,7 @@ class CellDataLoaderTest extends TestCase
      */
     public function testLoadJsonQuery()
     {
-        $data = CellDataLoader::loadJsonQuery('common');
+        $data = CellDataLoader::loadJsonQuery();
         $months = $data->from('months')->where('id', '=', '6')->first();
         $this->assertEquals("มิถุนายน", $months->name, 'B');
     }

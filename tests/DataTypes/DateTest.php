@@ -1,6 +1,5 @@
 <?php
-/** @noinspection PhpIllegalPsrClassPathInspection */
-/** @noinspection PhpParamsInspection */
+namespace Tests\DataTypes;
 
 use Nahid\QArray\Exceptions\ConditionNotAllowedException;
 use Nahid\QArray\Exceptions\InvalidNodeException;
