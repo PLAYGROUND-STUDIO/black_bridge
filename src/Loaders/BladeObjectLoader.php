@@ -12,7 +12,7 @@ class BladeObjectLoader extends Loader
      * @param string $databaseName
      * @return Blade
      */
-    public static function load(string $databaseName = 'common'): Blade
+    public static function load(): Blade
     {
         return new Blade(__DIR__ . '/../../resources/views', __DIR__ . '/../../cache/views');
     }
