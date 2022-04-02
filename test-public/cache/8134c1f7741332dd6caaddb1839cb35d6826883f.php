@@ -1,1 +1,0 @@
-AAAAA<?php /**PATH /var/www/html/resources/views/test.blade.php ENDPATH**/ ?>

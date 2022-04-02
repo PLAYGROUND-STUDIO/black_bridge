@@ -20,7 +20,8 @@
         "nahid/jsonq": "v6.0.0",
         "ext-json": "*",
         "pragmarx/google2fa": "^8.0",
-        "jenssegers/blade": "^1.4"
+        "jenssegers/blade": "^1.4",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "autoload-dev": {
         "psr-4": {
