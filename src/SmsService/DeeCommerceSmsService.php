@@ -27,7 +27,7 @@ class DeeCommerceSmsService implements SmsService
      * @param [type] $secretKey
      * @param [type] $type eg. OTP, NOTI, MKT
      */
-    public function __construct($accountId, $secretKey, $type)
+    public function __construct($accountId, $secretKey, $type = 'MKT')
     {
         $this->accountId    = $accountId;
         $this->secretKey   = $secretKey;
@@ -61,7 +61,6 @@ class DeeCommerceSmsService implements SmsService
                 ]);
                 $objResponse = json_decode($response->getBody());
                 if($objResponse->error == 0) {
-                    $this->quotaBalance = $objResponse->quota_balance;
                     return true;
                 } else {
                     $this->errors[] = $objResponse->msg;
@@ -95,6 +94,19 @@ class DeeCommerceSmsService implements SmsService
 
     public function getQuotaBalance()
     {
-        return $this->quotaBalance;
+        $response = $this->client->request('POST', '/service/creditbalance', [
+            'body' => json_encode([
+                'accountId' => $this->accountId,
+                'secretKey' => $this->secretKey
+            ])
+        ]);
+        $objResponse = json_decode($response->getBody());
+        if($objResponse->msg == 'OK') {
+            return $objResponse->result->amount;
+        } else {
+            $this->errors[] = $objResponse->msg;
+        }
+
+        return false;
     }
 }
